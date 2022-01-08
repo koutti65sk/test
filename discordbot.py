@@ -23,4 +23,4 @@ async def on_message(message):
     print('one')
 
 
-bot.login(token)
+bot.run(token)
