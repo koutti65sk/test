@@ -4,9 +4,9 @@ import os
 
 token = os.environ['DISCORD_BOT_TOKEN']
 
-intents = discord.Intents.all()
+intent = discord.Intents.all()
 
-bot = commands.Bot(command_prefix='&',intents = intents)
+bot = commands.Bot(command_prefix='&',intents = intent)
 
 
 bot.run(token)
